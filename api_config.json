@@ -1,0 +1,35 @@
+{
+    "version": 1.0,
+
+    "domain": "https://hoadondientu.gdt.gov.vn",
+
+    "paths": {
+
+        "login":
+            "/api/security-taxpayer/authenticate",
+
+        "captcha":
+            "/api/captcha",
+
+        "profile":
+            "/api/security-taxpayer/profile",
+
+        "invoice_detail_normal":
+            "/api/query/invoices/detail",
+
+        "invoice_detail_sco":
+            "/api/sco-query/invoices/detail",
+
+        "invoice_export_normal":
+            "/api/query/invoices/export-excel-sold",
+
+        "invoice_export_sco":
+            "/api/sco-query/invoices/export-excel-sold",
+
+        "invoice_xml_normal":
+            "/api/query/invoices/export-xml",
+
+        "invoice_xml_sco":
+            "/api/sco-query/invoices/export-xml"
+    }
+}
