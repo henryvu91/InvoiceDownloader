@@ -1,5 +1,5 @@
 {
-    "version": "1.2",
+    "version": "1.0",
 
     "domain": "https://hoadondientu.gdt.gov.vn",
 
@@ -31,6 +31,5 @@
 
         "invoice_xml_sco":
             "/api/sco-query/invoices/export-xml"
-    },
-    "test": "ok"
+    }
 }
