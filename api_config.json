@@ -1,35 +1,18 @@
 {
-    "version": "1.0",
-
-    "domain": "https://hoadondientu.gdt.gov.vn",
-
-    "paths": {
-
-        "login":
-            "/api/security-taxpayer/authenticate",
-
-        "captcha":
-            "/api/captcha",
-
-        "profile":
-            "/api/security-taxpayer/profile",
-
-        "invoice_detail_normal":
-            "/api/query/invoices/detail",
-
-        "invoice_detail_sco":
-            "/api/sco-query/invoices/detail",
-
-        "invoice_export_normal":
-            "/api/query/invoices/export-excel-sold",
-
-        "invoice_export_sco":
-            "/api/sco-query/invoices/export-excel-sold",
-
-        "invoice_xml_normal":
-            "/api/query/invoices/export-xml",
-
-        "invoice_xml_sco":
-            "/api/sco-query/invoices/export-xml"
-    }
+  "version": "1.1",
+  "domain": "https://hoadondientu.gdt.gov.vn",
+  "paths": {
+    "login": "/api/security-taxpayer/authenticate",
+    "captcha": "/api/captcha",
+    "profile": "/api/security-taxpayer/profile",
+    "invoice_detail_normal": "/api/query/invoices/detail",
+    "invoice_detail_sco": "/api/sco-query/invoices/detail",
+    "invoice_export_normal": "/api/query/invoices/export-excel-sold",
+    "invoice_export_sco": "/api/sco-query/invoices/export-excel-sold",
+    "invoice_xml_normal": "/api/query/invoices/export-xml",
+    "invoice_xml_sco": "/api/sco-query/invoices/export-xml",
+    "invoice_query_purchase": "/api/query/invoices/purchase",
+    "invoice_sco_query_purchase": "/api/sco-query/invoices/purchase",
+    "invoice_query_sold": "/api/query/invoices/sold"
+  }
 }
